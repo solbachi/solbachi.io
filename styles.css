@@ -119,3 +119,27 @@ footer {
     font-size: 1.2rem;
     margin: 0;
 }
+/* Import custom font */
+@font-face {
+    font-family: 'YourFontName';
+    src: url('fonts/your-font.woff2') format('woff2'),
+         url('fonts/your-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the custom font */
+body {
+    font-family: 'minecraft', sans-serif;
+}
+
+h1, h2, p {
+    font-family: 'minecraft', sans-serif;
+}
+
+@font-face {
+    font-family: 'minecraft';
+    src: url('fonts/minecraft.ttf') format('woff2'),
+         url('fonts/minecraft.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
